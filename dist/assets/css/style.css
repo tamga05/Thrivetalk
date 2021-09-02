@@ -410,7 +410,7 @@ template {
     font-family: Larsseit-Medium;
     font-size: 24px;
     text-align: left;
-    line-height: 33.75px;
+    line-height: 35.75px;
     letter-spacing: 0.5%;
     color: #22356F;
 }
@@ -421,6 +421,6 @@ template {
     line-height: 18.75px;
     letter-spacing: 6%;
     color: #22356F;
-    opacity: 50%;
+    opacity: 0.5;
     margin-top: 75px;
 }
