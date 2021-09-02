@@ -1,14 +1,14 @@
 @import "./base/normalize.scss";
 
 
-//@import "./common/container";
+@import "./common/container";
 
 
 //@import "./abstracts/variables";
 //@import "./abstracts/mixins";
 
 
-//@import "./components/fonts";
+@import "./components/fonts";
 //@import "./components/logo";
 //@import "./components/btn";
 //@import "./components/title";
@@ -17,10 +17,8 @@
 
 
 //@import "./layout/header";
+@import "./layout/about";
 //@import "./layout/footer";
-
-
-@import "./style2";
 
 
 //@import "./media/media-querys";
