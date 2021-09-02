@@ -363,7 +363,7 @@ template {
     padding: 0 10px;
 }
 
-.squares-small__box1, .squares-small__box2, .squares-small__box3, .squares-small__box4 {
+.squares-small__cell1, .squares-small__cell2, .squares-small__cell3, .squares-small__cell4, .squares__cell1, .squares__cell2, .squares__cell3, .squares__cell4, .squares__cell5, .squares__cell6 {
     font-family: Larsseit-Bold;
     font-size: 32px;
     text-align: center;
@@ -446,30 +446,79 @@ template {
     grid-template-rows: 360px;
 }
 
-.squares-small__box1 {
-    background-color: #FFE2DE;
+.squares-small__cell1 {
+    background: #FFE2DE;
     padding-top: 95px;
 }
 
-.squares-small__box2 {
-    background-color: #C4E769;
+.squares-small__cell2 {
+    background: #C4E769;
     padding-top: 95px;
     text-align: left;
     padding-left: 78px;
+    padding-right: 50px;
 }
 
-.squares-small__box3 {
-    background-color: #62D0DF;
+.squares-small__cell3 {
+    background: #62D0DF;
     padding-top: 95px;
 }
 
-.squares-small__box4 {
-    background-color: #0052C1;
+.squares-small__cell4 {
+    background: #0052C1;
     padding-top: 95px;
+}
+
+.squares-small__link {
+    text-decoration: none;
+    position: relative;
+}
+
+.squares-small__link::before {
+    content: url(./../../images/squares-small/ellipse.png);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .squares__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 480px);
+}
+
+.squares__cell1 {
+    background: #22356F;
+    padding-top: 125px;
+}
+
+.squares__cell2 {
+    background: #0052C1;
+    padding-top: 125px;
+}
+
+.squares__cell3 {
+    background-image: url(./../../images/squares/smoothie.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 480px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding-top: 125px;
+}
+
+.squares__cell4 {
+    background: #62D0DF;
+    padding-top: 125px;
+}
+
+.squares__cell5 {
+    background: #DEE1FF;
+    padding-top: 125px;
+}
+
+.squares__cell6 {
+    background: #8F00FF;
+    padding-top: 125px;
 }

@@ -8,14 +8,14 @@
 
 .squares-small {
 
-    &__box1 {
-        background-color: #FFE2DE;
+    &__cell1 {
+        background: #FFE2DE;
         padding-top: 95px;
         @extend %squareHeading;
     }
 
-    &__box2 {
-        background-color: #C4E769;
+    &__cell2 {
+        background: #C4E769;
         padding-top: 95px;
         @extend %squareHeading;
         text-align: left;
@@ -23,16 +23,29 @@
         padding-right: 50px;
     }
 
-    &__box3 {
-        background-color: #62D0DF;
+    &__cell3 {
+        background: #62D0DF;
         padding-top: 95px;
         @extend %squareHeading;
     }
 
-    &__box4 {
-        background-color: #0052C1;
+    &__cell4 {
+        background: #0052C1;
         padding-top: 95px;
         @extend %squareHeading;
+    }
+
+    &__link {
+        text-decoration: none;
+        position: relative;
     }
 
 }
+
+.squares-small__link::before {
+    content: url(./../../images/squares-small/ellipse.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+

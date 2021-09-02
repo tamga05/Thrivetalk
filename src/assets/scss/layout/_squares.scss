@@ -3,3 +3,58 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 480px);
 }
+
+.squares {
+
+    &__cell1 {
+        background: #22356F;
+        padding-top: 125px;
+        @extend %squareHeading;
+
+    }
+
+    &__cell2 {
+        background: #0052C1;
+
+        padding-top: 125px;
+        @extend %squareHeading;
+
+    }
+
+    &__cell3 {
+        background-image: url(./../../images/squares/smoothie.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 480px;
+        width: 100%;
+        object-fit: cover;
+        padding-top: 125px;
+        @extend %squareHeading;
+
+    }
+
+    &__cell4 {
+        background: #62D0DF;
+
+        padding-top: 125px;
+        @extend %squareHeading;
+
+    }
+
+    &__cell5 {
+        background: #DEE1FF;
+
+        padding-top: 125px;
+        @extend %squareHeading;
+
+    }
+
+    &__cell6 {
+        background: #8F00FF;
+
+        padding-top: 125px;
+        @extend %squareHeading;
+
+    }
+
+}
