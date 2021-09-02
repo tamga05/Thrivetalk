@@ -6,10 +6,19 @@
 // Тестовый шрифт    $fontFamily: Schwabacher;
 
 
-$fontFamilyText: Muli-Regular;
+//$fontFamilyText: Muli-Regular;
 
 
-$fontFamilyTitle: Muli-ExtraBold;
+//$fontFamilyTitle: Muli-ExtraBold;
 
 
-$colorHeaderBtn: #0aa566;
+//$colorHeaderBtn: #0aa566;
+
+%squareHeading {
+    font-family: Larsseit-Bold;
+    font-size: 32px;
+    text-align: center;
+    line-height: 33.75px;
+    letter-spacing: -0.6%;
+    color: #FFFFFF;
+}

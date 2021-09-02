@@ -326,6 +326,14 @@ template {
   margin: 0 auto;
   padding: 0 10px; }
 
+.squares-small__box1, .squares-small__box2, .squares-small__box3, .squares-small__box4 {
+  font-family: Larsseit-Bold;
+  font-size: 32px;
+  text-align: center;
+  line-height: 33.75px;
+  letter-spacing: -0.6%;
+  color: #FFFFFF; }
+
 @font-face {
   font-family: "Larsseit-Bold";
   src: url("../fonts/woff2/Larsseit-Bold.woff2") format("woff2"), url("../fonts/woff/Larsseit-Bold.woff") format("woff"); }
@@ -352,8 +360,8 @@ template {
   letter-spacing: 6%;
   color: #22356F;
   text-decoration: none;
-  position: absolute;
-  margin-top: 5px; }
+  margin-top: 5px;
+  position: absolute; }
 
 .about__content {
   display: flex;
@@ -377,5 +385,38 @@ template {
   color: #22356F;
   opacity: 0.5;
   margin-top: 75px; }
+
+.about__title-link {
+  text-decoration: none; }
+
+.squares-small__wrapper {
+  height: 480px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 360px; }
+
+.squares-small__box1 {
+  background-color: #FFE2DE;
+  padding-top: 95px; }
+
+.squares-small__box2 {
+  background-color: #C4E769;
+  padding-top: 95px;
+  text-align: left;
+  padding-left: 78px;
+  padding-right: 50px; }
+
+.squares-small__box3 {
+  background-color: #62D0DF;
+  padding-top: 95px; }
+
+.squares-small__box4 {
+  background-color: #0052C1;
+  padding-top: 95px; }
+
+.squares__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 480px); }
 
 /*# sourceMappingURL=style.min.css.map */
