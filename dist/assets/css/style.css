@@ -475,10 +475,24 @@ template {
 }
 
 .squares-small__link::before {
-    content: url(./../../images/squares-small/ellipse.png);
+    content: "";
+    background-image: url(./../images/squares-small/ellipse.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 9px;
     position: absolute;
-    top: 0;
-    left: 0;
+    left: -20px;
+    top: 10px;
+}
+
+.squares-small__link::after {
+    content: "";
+    max-width: 255px;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -50px;
 }
 
 .squares__wrapper {
@@ -498,7 +512,7 @@ template {
 }
 
 .squares__cell3 {
-    background-image: url(./../../images/squares/smoothie.png);
+    background-image: url(./../images/squares/smoothie.png);
     background-position: center;
     background-repeat: no-repeat;
     max-width: 480px;

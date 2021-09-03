@@ -22,3 +22,30 @@
     letter-spacing: -0.6%;
     color: #FFFFFF;
 }
+
+%squareSmallCell {
+    padding-top: 95px;
+    position: relative;
+}
+
+%squareSmallBefore {
+    content: "";
+    background-image: url(./../images/squares-small/ellipse.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    left: 54px;
+    top: 104px;
+}
+
+%squareSmallAfter {
+    content: "";
+    width: 255px;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -25px;
+    left: -35px;
+}
