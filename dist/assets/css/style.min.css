@@ -349,6 +349,15 @@ template {
   left: 54px;
   top: 104px; }
 
+.squares-small__cell1::after, .squares-small__cell2::after, .squares-small__cell3::after, .squares-small__cell4::after {
+  content: "";
+  width: 255px;
+  height: 1px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 72px;
+  left: 52.5px; }
+
 @font-face {
   font-family: "Larsseit-Bold";
   src: url("../fonts/woff2/Larsseit-Bold.woff2") format("woff2"), url("../fonts/woff/Larsseit-Bold.woff") format("woff"); }

@@ -16,6 +16,11 @@
         &::before {
             @extend %squareSmallBefore;
         }
+
+        &::after {
+            @extend %squareSmallAfter;
+        }
+
     }
 
     &__cell2 {
@@ -29,6 +34,11 @@
         &::before {
             @extend %squareSmallBefore;
         }
+
+        &::after {
+            @extend %squareSmallAfter;
+        }
+
     }
 
     &__cell3 {
@@ -39,6 +49,11 @@
         &::before {
             @extend %squareSmallBefore;
         }
+
+        &::after {
+            @extend %squareSmallAfter;
+        }
+
     }
 
     &__cell4 {
@@ -49,6 +64,11 @@
         &::before {
             @extend %squareSmallBefore;
         }
+
+        &::after {
+            @extend %squareSmallAfter;
+        }
+
     }
 
     &__link {
