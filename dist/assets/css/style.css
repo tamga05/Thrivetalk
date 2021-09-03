@@ -451,6 +451,40 @@ template {
   src: url("./../fonts/woff2/Larsseit.woff2") format("woff2"), url("./../fonts/woff/Larsseit.woff") format("woff");
 }
 
+.thrive__wrapper {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.thrive__content {
+    padding: 160px 180px 95px;
+    background-color: #62D0DF;
+}
+
+.thrive__title {
+    font-family: Larsseit-Bold;
+    font-size: 36px;
+    line-height: 27.42px;
+    letter-spacing: -0.6%;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+}
+
+.thrive__span {
+    font-family: Larsseit-Bold;
+    font-size: 24px;
+    line-height: 35.16px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.thrive__text {
+    font-size: 20px;
+    line-height: 29.3px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
 .about__wrapper {
     max-width: 1230px;
     padding-top: 150px;
