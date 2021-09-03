@@ -14,7 +14,12 @@
 
 //$colorHeaderBtn: #0aa566;
 
-%squareHeading {
+%squareSmallCell {
+    padding-top: 105px;
+    position: relative;
+}
+
+%squareSmallHeading {
     font-family: Larsseit-Bold;
     font-size: 32px;
     text-align: center;
@@ -23,21 +28,16 @@
     color: #FFFFFF;
 }
 
-%squareSmallCell {
-    padding-top: 95px;
-    position: relative;
-}
-
 %squareSmallBefore {
     content: "";
-    background-image: url(./../images/squares-small/ellipse.png);
+    background-image: url(./../images/squares-small/circle.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 9px;
     height: 9px;
     position: absolute;
     left: 54px;
-    top: 104px;
+    top: 114px;
 }
 
 %squareSmallAfter {
@@ -46,6 +46,43 @@
     height: 1px;
     background-color: #FFFFFF;
     position: absolute;
-    top: 72px;
+    top: 75px;
     left: 52.5px;
+}
+
+%squareCell {
+    padding-top: 134px;
+    padding-left: 104px;
+    position: relative;
+}
+
+%squareHeading {
+    font-family: Larsseit-Bold;
+    font-size: 32px;
+    text-align: left;
+    line-height: 33.75px;
+    letter-spacing: -0.6%;
+    color: #FFFFFF;
+}
+
+%squareBefore {
+    content: "";
+    background-image: url(./../images/squares/circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 72px;
+    top: 143px;
+}
+
+%squareAfter {
+    content: "";
+    width: 340px;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 95px;
+    left: 70px;
 }

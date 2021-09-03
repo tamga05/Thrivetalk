@@ -11,7 +11,7 @@
     &__cell1 {
         background: #FFE2DE;
         @extend %squareSmallCell;
-        @extend %squareHeading;
+        @extend %squareSmallHeading;
 
         &::before {
             @extend %squareSmallBefore;
@@ -26,7 +26,7 @@
     &__cell2 {
         background: #C4E769;
         @extend %squareSmallCell;
-        @extend %squareHeading;
+        @extend %squareSmallHeading;
         text-align: left;
         padding-left: 78px;
         padding-right: 50px;
@@ -44,7 +44,7 @@
     &__cell3 {
         background: #62D0DF;
         @extend %squareSmallCell;
-        @extend %squareHeading;
+        @extend %squareSmallHeading;
 
         &::before {
             @extend %squareSmallBefore;
@@ -59,7 +59,7 @@
     &__cell4 {
         background: #0052C1;
         @extend %squareSmallCell;
-        @extend %squareHeading;
+        @extend %squareSmallHeading;
 
         &::before {
             @extend %squareSmallBefore;
@@ -74,29 +74,6 @@
     &__link {
         text-decoration: none;
         position: relative;
-
-    // &::before {
-    //     content: "";
-    //     background-image: url(./../images/squares-small/ellipse.png);
-    //     background-position: center;
-    //     background-repeat: no-repeat;
-    //     width: 9px;
-    //     height: 9px;
-    //     position: absolute;
-    //     left: -20px;
-    //     top: 10px;
-    // }
-
-    // &::after {
-    //     content: "";
-    //     width: 255px;
-    //     height: 1px;
-    //     background-color: #FFFFFF;
-    //     position: absolute;
-    //     top: -25px;
-    //     left: -35px;
-    // }
-
     }
 
 }

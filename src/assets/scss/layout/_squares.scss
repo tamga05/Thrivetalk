@@ -8,14 +8,34 @@
 
     &__cell1 {
         background: #22356F;
-        padding-top: 125px;
+        @extend %squareCell;
         @extend %squareHeading;
+        padding-right: 200px;
+
+        &::before {
+            @extend %squareBefore;
+        }
+
+        &::after {
+            @extend %squareAfter;
+        }
+
     }
 
     &__cell2 {
         background: #0052C1;
-        padding-top: 125px;
+        @extend %squareCell;
         @extend %squareHeading;
+        padding-right: 200px;
+
+        &::before {
+            @extend %squareBefore;
+        }
+
+        &::after {
+            @extend %squareAfter;
+        }
+
     }
 
     &__cell3 {
@@ -25,26 +45,67 @@
         max-width: 480px;
         width: 100%;
         object-fit: cover;
-        padding-top: 125px;
+        @extend %squareCell;
         @extend %squareHeading;
+
+        &::before {
+            @extend %squareBefore;
+        }
+
+        &::after {
+            @extend %squareAfter;
+        }
+
     }
 
     &__cell4 {
         background: #62D0DF;
-        padding-top: 125px;
+        @extend %squareCell;
         @extend %squareHeading;
+
+        &::before {
+            @extend %squareBefore;
+        }
+
+        &::after {
+            @extend %squareAfter;
+        }
+
     }
 
     &__cell5 {
         background: #DEE1FF;
-        padding-top: 125px;
+        @extend %squareCell;
         @extend %squareHeading;
+
+        &::before {
+            @extend %squareBefore;
+        }
+
+        &::after {
+            @extend %squareAfter;
+        }
+
     }
 
     &__cell6 {
         background: #8F00FF;
-        padding-top: 125px;
+        @extend %squareCell;
         @extend %squareHeading;
+
+        &::before {
+            @extend %squareBefore;
+        }
+
+        &::after {
+            @extend %squareAfter;
+        }
+
+    }
+
+    &__link {
+        text-decoration: none;
+        position: relative;
     }
 
 }
