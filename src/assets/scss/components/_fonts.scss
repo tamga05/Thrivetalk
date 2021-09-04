@@ -15,3 +15,13 @@
     src: url("./../fonts/woff2/Larsseit.woff2") format("woff2"),
       url("./../fonts/woff/Larsseit.woff") format("woff");
     }
+
+
+
+// Готический шрифт Schwabacher (для Проверки Правильного подключения Шрифтов).
+
+@font-face {
+  font-family: "Schwabacher";
+  src: url("./../fonts/gothic/Schwabacher.woff2") format("woff2"),
+    url("./../fonts/gothic/Schwabacher.woff") format("woff");
+}

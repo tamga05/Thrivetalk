@@ -3,11 +3,23 @@
     &__wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 262px 280px;
     }
 
     &__cell {
-        padding: 83px 101px 46px 106px;
+        padding-right: 101px;
+        padding-left: 106px;
+
+        &:nth-child(1n+1) {
+            padding-top: 83px;
+            padding-bottom: 46px;
+        }
+
+        &:nth-child(1n+4) {
+            padding-top: 61px;
+            padding-bottom: 86px;
+        }
+
     }
 
     &__heading {
@@ -17,7 +29,7 @@
         line-height: 32.81px;
         letter-spacing: -3%;
         color: #22356F;
-        margin-bottom: 34px;
+        margin-bottom: 40px;
     }
 
     &__link {

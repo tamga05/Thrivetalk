@@ -1,0 +1,49 @@
+.attention {
+
+    &__wrapper {
+        // display: grid;
+        // grid-template-columns: 1fr 2fr;
+        // grid-template-rows: 1fr;
+        height: 800px;
+        display: flex;
+    }
+
+    &__content {
+        padding: 103px 167px 230px 106px;
+    }
+
+    &__title {
+        font-family: Larsseit;
+        font-size: 16px;
+        line-height: 12.19px;
+        letter-spacing: 6%;
+        text-align: left;
+        color: #22356F;
+        margin-bottom: 237px;
+    }
+
+    &__text {
+        font-family: Larsseit-Bold;
+        font-size: 36px;
+        line-height: 52.73px;
+        letter-spacing: -1%;
+        text-align: left;
+        color: #22356F;
+        margin-bottom: 167px;
+    }
+
+    &__span {
+        color: #62D0DF;
+    }
+
+    &__link {
+        font-family: Larsseit-Bold;
+        font-size: 16px;
+        line-height: 23.44px;
+        letter-spacing: 10%;
+        text-align: left;
+        color: #FAB63E;
+        text-decoration: none;
+    }
+
+}

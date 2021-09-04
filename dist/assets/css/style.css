@@ -378,17 +378,30 @@ template {
   src: url("./../fonts/woff2/Larsseit.woff2") format("woff2"), url("./../fonts/woff/Larsseit.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Schwabacher";
+  src: url("./../fonts/gothic/Schwabacher.woff2") format("woff2"), url("./../fonts/gothic/Schwabacher.woff") format("woff");
+}
+
 .way__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 262px 280px;
 }
 
 .way__cell {
+    padding-right: 101px;
+    padding-left: 106px;
+}
+
+.way__cell:nth-child(1n+1) {
     padding-top: 83px;
     padding-bottom: 46px;
-    padding-left: 106px;
-    padding-right: 101px;
+}
+
+.way__cell:nth-child(1n+4) {
+    padding-top: 61px;
+    padding-bottom: 86px;
 }
 
 .way__heading {
@@ -398,6 +411,24 @@ template {
     line-height: 32.81px;
     letter-spacing: -3%;
     color: #22356F;
-    margin-bottom: 34px;
+    margin-bottom: 40px;
+}
+
+.way__link {
     text-decoration: none;
+}
+
+.way__text {
+    font-family: Larsseit;
+    font-size: 16px;
+    text-align: left;
+    line-height: 25.31px;
+    letter-spacing: -3%;
+    color: #22356F;
+    opacity: 0.5;
+}
+
+.attention__wrapper {
+    display: -ms-flexbox;
+    display: flex;
 }
