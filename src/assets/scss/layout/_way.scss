@@ -1,0 +1,37 @@
+.way {
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    &__cell {
+        padding: 83px 101px 46px 106px;
+    }
+
+    &__heading {
+        font-family: Larsseit;
+        font-size: 28px;
+        text-align: left;
+        line-height: 32.81px;
+        letter-spacing: -3%;
+        color: #22356F;
+        margin-bottom: 34px;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__text {
+        font-family: Larsseit;
+        font-size: 16px;
+        text-align: left;
+        line-height: 25.31px;
+        letter-spacing: -3%;
+        color: #22356F;
+        opacity: 0.5;
+    }
+
+}
