@@ -1,104 +1,73 @@
-.squares__wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 480px);
-}
+.method {
 
-.squares {
-
-    &__cell1 {
-        background: #22356F;
-        @extend %squareCell;
-        @extend %squareHeading;
-        padding-right: 200px;
-
-        &::before {
-            @extend %squareBefore;
-        }
-
-        &::after {
-            @extend %squareAfter;
-        }
-
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 480px);
     }
 
-    &__cell2 {
-        background: #0052C1;
-        @extend %squareCell;
-        @extend %squareHeading;
-        padding-right: 200px;
+    &__cell {
+        padding-top: 134px;
+        padding-left: 104px;
+        position: relative;
+        font-family: Larsseit-Bold;
+        font-size: 32px;
+        text-align: left;
+        line-height: 33.75px;
+        letter-spacing: -0.6%;
+        color: #FFFFFF;
 
         &::before {
-            @extend %squareBefore;
+            content: "";
+            background-image: url(./../images/method/circle.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            left: 72px;
+            top: 143px;
         }
 
         &::after {
-            @extend %squareAfter;
+            content: "";
+            width: 340px;
+            height: 1px;
+            background-color: #FFFFFF;
+            position: absolute;
+            top: 95px;
+            left: 70px;
         }
 
-    }
-
-    &__cell3 {
-        background-image: url(./../images/squares/smoothie.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        max-width: 480px;
-        width: 100%;
-        object-fit: cover;
-        @extend %squareCell;
-        @extend %squareHeading;
-
-        &::before {
-            @extend %squareBefore;
+        &--darkblue {
+            background: #22356F;
+            padding-right: 200px;
         }
 
-        &::after {
-            @extend %squareAfter;
+        &--blue {
+            background: #0052C1;
+            padding-right: 200px;
         }
 
-    }
-
-    &__cell4 {
-        background: #62D0DF;
-        @extend %squareCell;
-        @extend %squareHeading;
-
-        &::before {
-            @extend %squareBefore;
+        &--smoothie {
+            background-image: url(./../images/method/smoothie.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            max-width: 480px;
+            width: 100%;
+            object-fit: cover;
         }
 
-        &::after {
-            @extend %squareAfter;
+        &--lightblue {
+            background: #62D0DF;
         }
 
-    }
-
-    &__cell5 {
-        background: #DEE1FF;
-        @extend %squareCell;
-        @extend %squareHeading;
-
-        &::before {
-            @extend %squareBefore;
+        &--lilac {
+            background: #DEE1FF;
         }
 
-        &::after {
-            @extend %squareAfter;
-        }
-
-    }
-
-    &__cell6 {
-        background: #8F00FF;
-        @extend %squareCell;
-        @extend %squareHeading;
-
-        &::before {
-            @extend %squareBefore;
-        }
-
-        &::after {
-            @extend %squareAfter;
+        &--violet {
+            background: #8F00FF;
         }
 
     }
