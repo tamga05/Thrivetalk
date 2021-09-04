@@ -1,0 +1,64 @@
+.smile {
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 800px;
+    }
+
+    &__cell-big {
+        background-color: #22356F;
+        padding: 107px 248px 58px 173px;
+    }
+
+    &__cell {
+        //background-image: url(./../images/smile/smileman.png);
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // max-width: 480px;
+        // width: 100%;
+        object-fit: cover;
+    }
+
+    &__link-top {
+        font-family: Larsseit;
+        font-size: 16px;
+        line-height: 12.19px;
+        letter-spacing: 6%;
+        text-align: left;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    &__title {
+        font-family: Larsseit-Bold;
+        font-size: 64px;
+        text-align: left;
+        line-height: 93.75px;
+        letter-spacing: -1%;
+        color: #FFFFFF;
+        margin-top: 205px;
+        margin-bottom: 70px;
+    }
+
+    &__text {
+        font-family: Larsseit;
+        font-size: 36px;
+        text-align: left;
+        line-height: 52.73px;
+        letter-spacing: -0.5%;
+        color: #FFFFFF;
+        margin-bottom: 86px;
+    }
+
+    &__link-bottom {
+        font-family: Larsseit-Bold;
+        font-size: 16px;
+        text-align: left;
+        line-height: 23.44px;
+        letter-spacing: 10%;
+        color: #62D0DF;
+        text-decoration: none;
+    }
+
+}
