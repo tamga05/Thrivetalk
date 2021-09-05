@@ -1,18 +1,36 @@
 .footer {
 
     &__top {
-        background-color: #f6a839;
-        margin-top: 5px;
+
     }
 
-    &__top-wrapper {
-        max-width: 1720px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        padding: 80px 0 95px;
+    &__image {
+        height: 380px;
+    }
+
+    &__content {
+
+    }
+
+    &__title {
+
+    }
+
+    &__bottom {
+        background-color: #62D0DF;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        padding-left: 179px;
+    }
+
+    &__copyright {
+        font-family: Larsseit-Bold;
+        font-size: 14px;
+        font-family: Larsseit;
+        line-height: 10.66px;
+        letter-spacing: -0.6%;
+        text-align: left;
+        color: #FFFFFF;
     }
 
 }
