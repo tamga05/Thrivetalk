@@ -1,7 +1,7 @@
 .footer {
 
     &__top {
-
+        display: flex;
     }
 
     &__image {
@@ -9,10 +9,29 @@
     }
 
     &__content {
+        padding: 101px 170px 0px 93px;
+        display: flex;
+    }
+
+    &__info {
 
     }
 
     &__title {
+        margin-bottom: 58px;
+
+    }
+
+    &__text {
+
+    }
+
+    &__contacts {
+        margin-left: 93px;
+        margin-right: 104px;
+    }
+
+    &__officehours {
 
     }
 
@@ -29,8 +48,18 @@
         font-family: Larsseit;
         line-height: 10.66px;
         letter-spacing: -0.6%;
-        text-align: left;
         color: #FFFFFF;
+    }
+
+    &__span {
+        width: 9px;
+        height: 9px;
+        font-family: Larsseit-Bold;
+        font-size: 14px;
+        line-height: 10.66px;
+        letter-spacing: -0.6%;
+        vertical-align: middle;
+        margin-right: 10px;
     }
 
 }

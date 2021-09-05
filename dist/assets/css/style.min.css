@@ -642,8 +642,22 @@ template {
   color: #62D0DF;
   text-decoration: none; }
 
+.footer__top {
+  display: flex; }
+
 .footer__image {
   height: 380px; }
+
+.footer__content {
+  padding: 101px 170px 0px 93px;
+  display: flex; }
+
+.footer__title {
+  margin-bottom: 58px; }
+
+.footer__contacts {
+  margin-left: 93px;
+  margin-right: 104px; }
 
 .footer__bottom {
   background-color: #62D0DF;
@@ -657,7 +671,16 @@ template {
   font-family: Larsseit;
   line-height: 10.66px;
   letter-spacing: -0.6%;
-  text-align: left;
   color: #FFFFFF; }
+
+.footer__span {
+  width: 9px;
+  height: 9px;
+  font-family: Larsseit-Bold;
+  font-size: 14px;
+  line-height: 10.66px;
+  letter-spacing: -0.6%;
+  vertical-align: middle;
+  margin-right: 10px; }
 
 /*# sourceMappingURL=style.min.css.map */

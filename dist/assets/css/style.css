@@ -757,15 +757,24 @@ template {
     text-decoration: none;
 }
 
+.footer__top {
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .footer__image {
     height: 380px;
 }
 
 .footer__bottom {
-    height: 80px;
     background-color: #62D0DF;
+    padding-top: 35px;
+    padding-bottom: 30px;
     padding-left: 179px;
-    vertical-align: middle;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .footer__copyright {
@@ -776,4 +785,14 @@ template {
     letter-spacing: -0.6%;
     text-align: left;
     color: #FFFFFF;
+}
+
+.footer__span {
+    width: 9px;
+    height: 9px;
+    font-family: Larsseit-Bold;
+    font-size: 14px;
+    line-height: 10.66px;
+    letter-spacing: -0.6%;
+    margin-right: 10px;
 }
