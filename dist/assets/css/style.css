@@ -357,10 +357,15 @@ template {
     display: none;
 }
 
+body {
+    background: #E5E5E5;
+}
+
 .container {
     max-width: 1460px;
     margin: 0 auto;
     padding: 0 10px;
+    background: #FFFFFF;
 }
 
 @font-face {
@@ -847,6 +852,7 @@ template {
     font-size: 14px;
     line-height: 10.66px;
     letter-spacing: -0.6%;
+    color: #FFFFFF;
     vertical-align: middle;
     margin-right: 10px;
 }
