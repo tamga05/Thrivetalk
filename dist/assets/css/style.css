@@ -766,24 +766,77 @@ template {
     height: 380px;
 }
 
+.footer__content {
+    padding: 101px 161px 0px 73px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer__info {
+    max-width: 173px;
+}
+
+.footer__title {
+    font-family: Larsseit-Bold;
+    font-size: 14px;
+    line-height: 10.66px;
+    letter-spacing: -0.6%;
+    color: #22356F;
+    margin-bottom: 58px;
+}
+
+.footer__text {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 22.97px;
+    letter-spacing: -0.6%;
+    color: #22356F;
+    opacity: 0.5;
+}
+
+.footer__contacts {
+    max-width: 161px;
+    margin-left: 93px;
+    margin-right: 104px;
+}
+
+.footer__tel {
+    display: inline-block;
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 22.97px;
+    letter-spacing: -0.6%;
+    color: #22356F;
+    opacity: 0.5;
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+.footer__mail {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 22.97px;
+    letter-spacing: -0.6%;
+    color: #4a8eee;
+    text-decoration: none;
+}
+
+.footer__officehours {
+    max-width: 105px;
+}
+
 .footer__bottom {
     background-color: #62D0DF;
     padding-top: 35px;
     padding-bottom: 30px;
     padding-left: 179px;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
 }
 
 .footer__copyright {
     font-family: Larsseit-Bold;
     font-size: 14px;
-    font-family: Larsseit;
     line-height: 10.66px;
     letter-spacing: -0.6%;
-    text-align: left;
     color: #FFFFFF;
 }
 
@@ -794,5 +847,6 @@ template {
     font-size: 14px;
     line-height: 10.66px;
     letter-spacing: -0.6%;
+    vertical-align: middle;
     margin-right: 10px;
 }

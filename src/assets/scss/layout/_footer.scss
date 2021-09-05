@@ -9,30 +9,61 @@
     }
 
     &__content {
-        padding: 101px 170px 0px 93px;
+        padding: 101px 161px 0px 73px;
         display: flex;
     }
 
     &__info {
-
+        max-width: 173px;
     }
 
     &__title {
+        font-family: Larsseit-Bold;
+        font-size: 14px;
+        line-height: 10.66px;
+        letter-spacing: -0.6%;
+        color: #22356F;
         margin-bottom: 58px;
-
     }
 
     &__text {
-
+        font-family: Larsseit;
+        font-size: 14px;
+        line-height: 22.97px;
+        letter-spacing: -0.6%;
+        color: #22356F;
+        opacity: 0.5;
     }
 
     &__contacts {
+        max-width: 161px;
         margin-left: 93px;
         margin-right: 104px;
     }
 
-    &__officehours {
+    &__tel {
+        display: inline-block;
+        font-family: Larsseit;
+        font-size: 14px;
+        line-height: 22.97px;
+        letter-spacing: -0.6%;
+        color: #22356F;
+        opacity: 0.5;
+        text-decoration: none;
+        margin-top: 35px;
+    }
 
+    &__mail {
+        font-family: Larsseit;
+        font-size: 14px;
+        line-height: 22.97px;
+        letter-spacing: -0.6%;
+        color: #4a8eee;
+        text-decoration: none;
+    }
+
+    &__officehours {
+        max-width: 105px;
     }
 
     &__bottom {
@@ -45,7 +76,6 @@
     &__copyright {
         font-family: Larsseit-Bold;
         font-size: 14px;
-        font-family: Larsseit;
         line-height: 10.66px;
         letter-spacing: -0.6%;
         color: #FFFFFF;
@@ -58,6 +88,7 @@
         font-size: 14px;
         line-height: 10.66px;
         letter-spacing: -0.6%;
+        color: #FFFFFF;
         vertical-align: middle;
         margin-right: 10px;
     }
