@@ -345,6 +345,10 @@ template {
   font-family: "Schwabacher";
   src: url("./../fonts/gothic/Schwabacher.woff2") format("woff2"), url("./../fonts/gothic/Schwabacher.woff") format("woff"); }
 
+.header__container {
+  background: linear-gradient(90deg, #f4f9e2 78%, white 50%);
+  height: 840px; }
+
 .thrive__wrapper {
   display: flex; }
 

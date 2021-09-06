@@ -2,6 +2,7 @@ body {
     background: #E5E5E5;
 }
 
+
 @import "./base/normalize.scss";
 
 
@@ -11,7 +12,7 @@ body {
 @import "./components/fonts";
 
 
-//@import "./layout/header";
+@import "./layout/header";
 @import "./layout/thrive";
 @import "./layout/about";
 @import "./layout/training";
