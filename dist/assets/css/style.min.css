@@ -347,7 +347,20 @@ template {
 
 .header__container {
   background: linear-gradient(90deg, #f4f9e2 78%, white 50%);
-  height: 840px; }
+  height: 840px;
+  position: relative; }
+
+.header__wrapper {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  height: 315px;
+  padding-top: 27px; }
+
+.header__image {
+  position: absolute;
+  top: 0;
+  right: 0; }
 
 .thrive__wrapper {
   display: flex; }
