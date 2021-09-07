@@ -39,7 +39,6 @@
 
     &__menu {
         display: flex;
-        //flex-direction: row;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 79px;
@@ -58,15 +57,17 @@
         list-style-type: none;
         display: flex;
         position: relative;
+        z-index: 2;
 
         &::before {
             content: "";
             width: 50px;
             height: 1px;
-            color: #22356F;
+            background-color: #22356F;
             position: absolute;
             bottom: -7px;
             left: -7px;
+            //z-index: 2;
         }
 
     }
@@ -78,9 +79,14 @@
         letter-spacing: -3.5%;
         color: #22356F;
         margin-right: 27px;
+
         &:last-child {
             margin-right: 0px;
         }
+    }
+
+    &__link {
+        text-decoration: none;
     }
 
     &__btn {

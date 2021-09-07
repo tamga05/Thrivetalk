@@ -436,6 +436,7 @@ template {
     justify-content: space-between;
     -ms-flex-align: center;
     align-items: center;
+    margin-bottom: 79px;
 }
 
 .header__menu-link {
@@ -452,13 +453,14 @@ template {
     display: -ms-flexbox;
     display: flex;
     position: relative;
+    z-index: 2;
 }
 
 .header__list::before {
     content: "";
     width: 50px;
     height: 1px;
-    color: #22356F;
+    background-color: #22356F;
     position: absolute;
     bottom: -7px;
     left: -7px;
@@ -477,6 +479,10 @@ template {
     margin-right: 0px;
 }
 
+.header__link {
+    text-decoration: none;
+}
+
 .header__btn {
     width: 150px;
     height: 50px;
@@ -489,6 +495,54 @@ template {
     letter-spacing: -3.5%;
     color: #FFFFFF;
     z-index: 2;
+}
+
+.header__title {
+    width: 484px;
+    height: 167px;
+    font-family: Larsseit-Bold;
+    font-size: 48px;
+    line-height: 53.44px;
+    letter-spacing: -3.5%;
+    color: #22356F;
+    margin-top: 54px;
+    margin-bottom: 85px;
+}
+
+.header__text {
+    width: 469px;
+    height: 161px;
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 42.19px;
+    color: #22356F;
+    margin-bottom: 63px;
+}
+
+.header__btn-left {
+    width: 150px;
+    height: 50px;
+    background-color: #F9B640;
+    border: none;
+    font-family: Larsseit-Bold;
+    font-size: 16px;
+    line-height: 23.44px;
+    letter-spacing: 10%;
+    color: #FFFFFF;
+    margin-right: 38px;
+}
+
+.header__btn-right {
+    width: 150px;
+    height: 50px;
+    background-color: #F4F9E2;
+    border: none;
+    font-family: Larsseit-Bold;
+    font-size: 16px;
+    line-height: 23.44px;
+    letter-spacing: 10%;
+    color: #FAB63E;
+    text-align: left;
 }
 
 .thrive__wrapper {
