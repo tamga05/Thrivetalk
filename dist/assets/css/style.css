@@ -409,6 +409,22 @@ template {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.header__image::before {
+    content: "";
+    width: 808px;
+    height: 545px;
+    background: #EDFDFF;
+    border-radius: 312.159px;
+    position: absolute;
+    top: 30px;
+    right: -135px;
+    -webkit-transform: rotate(-65deg);
+    transform: rotate(-65deg);
+    z-index: -1;
 }
 
 .thrive__wrapper {
