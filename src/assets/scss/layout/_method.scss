@@ -53,9 +53,9 @@
             background-image: url(./../images/method/smoothie.png);
             background-position: center;
             background-repeat: no-repeat;
+            object-fit: cover;
             max-width: 480px;
             width: 100%;
-            object-fit: cover;
         }
 
         &--lightblue {

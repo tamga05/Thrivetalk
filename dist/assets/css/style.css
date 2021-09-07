@@ -387,9 +387,28 @@ template {
   src: url("./../fonts/gothic/Schwabacher.woff2") format("woff2"), url("./../fonts/gothic/Schwabacher.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Almendra";
+  src: url("./../fonts/gothic/Almendra.woff2") format("woff2"), url("./../fonts/gothic/Almendra.woff") format("woff");
+}
+
 .header__container {
     background: linear-gradient(90deg, #f4f9e2 78%, white 50%);
     height: 840px;
+    position: relative;
+}
+
+.header__wrapper {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 27px;
+}
+
+.header__image {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .thrive__wrapper {
@@ -597,10 +616,10 @@ template {
     background-image: url(./../images/method/smoothie.png);
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 480px;
-    width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+    max-width: 480px;
+    width: 100%;
 }
 
 .method__cell--lightblue {

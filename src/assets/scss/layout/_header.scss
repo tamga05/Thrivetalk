@@ -11,7 +11,7 @@
         width: 100%;
         margin: 0 auto;
 
-        height: 315px;
+        //height: 315px;
         padding-top: 27px;
 
         // display: flex;
@@ -21,11 +21,38 @@
     }
 
     &__image {
+
+
         position: absolute;
         top: 0;
         right: 0;
+            //transform: rotate(-30deg);
+            //overflow: hidden;
+            //background: url(./../images/header/thrivetalk.png);
     }
 
+//     &::before {
+//         content: "";
+//         background-image: url(./../images/header/thrivetalk.png);
+//         width: 808px;
+//         height: 545px;
+//         transform: scale(1.5);
+//         //background: #EDFDFF;
+//         //border-radius: 312.159px;
+//         position: absolute;
+//         top: -50px;
+//         right: 0;
 
+//         transform: rotateZ(30deg);
+
+//     }
+
+// }
+        //background: linear-gradient(213.71deg, #FFFFFF 11.23%, rgba(255, 255, 255, 0) 48.4%)
+
+
+    &__pic {
+
+    }
 
 }
