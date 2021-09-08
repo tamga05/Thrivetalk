@@ -1,4 +1,17 @@
+@media screen and (max-width: 1325px) {
+
+    //Секция Trive//
+
+    .trive__content {
+        //padding-left: 100px;
+        //-right: 100px;
+    }
+
+}
+
 @media screen and (max-width: 1245px) {
+
+    //Секция About//
 
     .about__wrapper {
         padding-left: 10px;
@@ -8,6 +21,8 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    //Секция About//
 
     .about {
 
@@ -32,6 +47,16 @@
         margin-top: 25px;
     }
 
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    //Секция About//
+
+    .about__text {
+        font-size: 20px;
     }
 
 }

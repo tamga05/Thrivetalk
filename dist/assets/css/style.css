@@ -552,8 +552,16 @@ template {
 }
 
 .thrive__content {
-    padding: 160px 181px 95px;
+    padding: 151px 0 92px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
     background-color: #62D0DF;
+    max-width: 915px;
+    width: 100%;
 }
 
 .thrive__title {
@@ -579,6 +587,15 @@ template {
     line-height: 29.3px;
     text-align: left;
     color: #FFFFFF;
+    max-width: 553px;
+    width: 100%;
+}
+
+.thrive__image {
+    max-width: 525px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .about__wrapper {
@@ -1045,5 +1062,11 @@ template {
 
     .about__link {
         margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about__text {
+        font-size: 20px;
     }
 }
