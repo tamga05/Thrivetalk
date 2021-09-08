@@ -1014,3 +1014,36 @@ template {
     vertical-align: middle;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 1245px) {
+    .about__wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about__wrapper {
+        padding-top: 25px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .about__title {
+        position: static;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .about__text {
+        text-align: center;
+    }
+
+    .about__link {
+        margin-top: 25px;
+    }
+}
