@@ -47,6 +47,19 @@
         padding-right: 10px;
     }
 
+    //Секция Method//
+
+    .method__wrapper {
+        grid-template-columns: repeat(2, 480px);
+        grid-template-rows: repeat(3, 480px);
+        justify-content: center;
+    }
+
+    .container {
+        background-color: #E5E5E5;
+    }
+
+
 }
 
 @media screen and (max-width: 1235px) {
@@ -144,32 +157,44 @@
     }
 }
 
+@media screen and (max-width: 960px) {
+
+    //Секция Method//
+
+    .method__wrapper {
+        grid-template-columns: repeat(1, 480px);
+        grid-template-rows: repeat(6, 480px);
+        justify-content: center;
+    }
+
+}
+
 @media screen and (max-width: 795px) {
 
     //Секция About//
 
     .about {
 
-    &__wrapper {
-        padding-top: 25px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+        &__wrapper {
+            padding-top: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-    &__title {
-        position: static;
-        margin-top: 0;
-        margin-bottom: 25px;
-    }
+        &__title {
+            position: static;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
 
-    &__text {
-        text-align: center;
-    }
+        &__text {
+            text-align: center;
+        }
 
-    &__link {
-        margin-top: 25px;
-    }
+        &__link {
+            margin-top: 25px;
+        }
 
     }
 
@@ -306,5 +331,19 @@
         }
 
     }
+
+    //Секция Method//@at-root
+
+    .method {
+
+        &__wrapper {
+            grid-template-rows: 1, 360px;
+            overflow-x: auto;
+            height: 360px;
+        }
+
+    }
+
+
 
 }
