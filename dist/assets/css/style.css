@@ -548,7 +548,6 @@ template {
 .thrive__wrapper {
     display: -ms-flexbox;
     display: flex;
-    padding-left: 1px;
 }
 
 .thrive__content {
@@ -562,6 +561,10 @@ template {
     background-color: #62D0DF;
     max-width: 915px;
     width: 100%;
+}
+
+.thrive__inner {
+    max-width: 553px;
 }
 
 .thrive__title {
@@ -587,8 +590,6 @@ template {
     line-height: 29.3px;
     text-align: left;
     color: #FFFFFF;
-    max-width: 553px;
-    width: 100%;
 }
 
 .thrive__image {
@@ -1032,14 +1033,38 @@ template {
     margin-right: 10px;
 }
 
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 1255px) {
     .about__wrapper {
         padding-left: 10px;
         padding-right: 10px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
+    .thrive__wrapper {
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .thrive__image {
+        max-width: 100%;
+    }
+
+    .thrive__content {
+        max-width: 100%;
+        padding: 50px 0 50px;
+    }
+
+    .thrive__inner {
+        margin: 0 10px;
+    }
+
+    .thrive__title {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 795px) {
     .about__wrapper {
         padding-top: 25px;
         display: -ms-flexbox;

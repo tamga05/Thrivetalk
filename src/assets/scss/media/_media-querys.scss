@@ -1,15 +1,4 @@
-@media screen and (max-width: 1325px) {
-
-    //Секция Trive//
-
-    .trive__content {
-        //padding-left: 100px;
-        //-right: 100px;
-    }
-
-}
-
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 1255px) {
 
     //Секция About//
 
@@ -20,7 +9,41 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
+
+    //Секция Trive//
+
+    .thrive {
+
+        &__wrapper {
+            flex-direction: column-reverse;
+        }
+
+        &__image {
+            max-width: 100%;
+        }
+
+        &__content {
+            max-width: 100%;
+            padding: 50px 0 50px
+        }
+
+        &__inner {
+            margin: 0 10px;
+        }
+
+        &__title {
+            margin-bottom: 35px;
+        }
+
+}
+
+    //Секция About//
+
+}
+
+
+@media screen and (max-width: 795px) {
 
     //Секция About//
 
@@ -46,6 +69,34 @@
     &__link {
         margin-top: 25px;
     }
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    //Секция Trive//
+
+    .thrive {
+
+        &__content {
+            max-width: 100%;
+            padding: 25px 0 25px
+        }
+
+        &__title {
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        &__span {
+            font-size: 22px;
+        }
+
+        &__text {
+            font-size: 18px;
+        }
 
     }
 

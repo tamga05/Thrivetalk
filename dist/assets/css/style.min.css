@@ -479,8 +479,7 @@ template {
   text-align: left; }
 
 .thrive__wrapper {
-  display: flex;
-  padding-left: 1px; }
+  display: flex; }
 
 .thrive__content {
   padding: 151px 0 92px;
@@ -492,8 +491,7 @@ template {
   width: 100%; }
 
 .thrive__inner {
-  max-width: 553px;
-  width: 100%; }
+  max-width: 553px; }
 
 .thrive__title {
   font-family: Larsseit-Bold;
@@ -515,9 +513,7 @@ template {
   font-size: 20px;
   line-height: 29.3px;
   text-align: left;
-  color: #FFFFFF;
-  max-width: 553px;
-  width: 100%; }
+  color: #FFFFFF; }
 
 .thrive__image {
   max-width: 525px;
@@ -875,12 +871,25 @@ template {
   vertical-align: middle;
   margin-right: 10px; }
 
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 1255px) {
   .about__wrapper {
     padding-left: 10px;
     padding-right: 10px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
+  .thrive__wrapper {
+    flex-direction: column-reverse; }
+  .thrive__image {
+    max-width: 100%; }
+  .thrive__content {
+    max-width: 100%;
+    padding: 50px 0 50px; }
+  .thrive__inner {
+    margin: 0 10px; }
+  .thrive__title {
+    margin-bottom: 35px; } }
+
+@media screen and (max-width: 795px) {
   .about__wrapper {
     padding-top: 25px;
     display: flex;
@@ -894,6 +903,18 @@ template {
     text-align: center; }
   .about__link {
     margin-top: 25px; } }
+
+@media screen and (max-width: 768px) {
+  .thrive__content {
+    max-width: 100%;
+    padding: 25px 0 25px; }
+  .thrive__title {
+    margin-bottom: 25px;
+    font-size: 28px; }
+  .thrive__span {
+    font-size: 22px; }
+  .thrive__text {
+    font-size: 18px; } }
 
 @media screen and (max-width: 360px) {
   .about__text {
