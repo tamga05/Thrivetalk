@@ -838,13 +838,32 @@ template {
 }
 
 .attention__wrapper {
-    height: 800px;
     display: -ms-flexbox;
     display: flex;
 }
 
+.attention__image {
+    max-width: 480px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
 .attention__content {
-    padding: 103px 167px 230px 106px;
+    padding: 103px 0 42px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 960px;
+    width: 100%;
+}
+
+.attention__inner {
+    max-width: 676px;
+    margin-right: 70px;
 }
 
 .attention__title {
@@ -854,7 +873,7 @@ template {
     letter-spacing: 6%;
     text-align: left;
     color: #22356F;
-    margin-bottom: 237px;
+    margin-bottom: 225px;
 }
 
 .attention__text {
@@ -864,7 +883,7 @@ template {
     letter-spacing: -1%;
     text-align: left;
     color: #22356F;
-    margin-bottom: 167px;
+    margin-bottom: 152px;
 }
 
 .attention__span {
@@ -1040,6 +1059,13 @@ template {
     }
 }
 
+@media screen and (max-width: 1235px) {
+    .attention__content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .thrive__wrapper {
         -ms-flex-direction: column-reverse;
@@ -1061,6 +1087,27 @@ template {
 
     .thrive__title {
         margin-bottom: 35px;
+    }
+
+    .attention__wrapper {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .attention__image {
+        max-width: 100%;
+    }
+
+    .attention__inner {
+        margin-right: 0px;
+    }
+
+    .attention__title {
+        margin-bottom: 100px;
+    }
+
+    .attention__text {
+        margin-bottom: 100px;
     }
 }
 
@@ -1090,8 +1137,56 @@ template {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .thrive__content {
+        max-width: 100%;
+        padding: 25px 0 25px;
+    }
+
+    .thrive__title {
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .thrive__span {
+        font-size: 22px;
+    }
+
+    .thrive__text {
+        font-size: 18px;
+    }
+
+    .attention__content {
+        padding-top: 42px;
+    }
+
+    .attention__title {
+        margin-bottom: 50px;
+    }
+
+    .attention__text {
+        margin-bottom: 50px;
+        font-size: 28px;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .about__text {
         font-size: 20px;
+    }
+
+    .attention__content {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .attention__title {
+        margin-bottom: 25px;
+    }
+
+    .attention__text {
+        margin-bottom: 25px;
+        font-size: 20px;
+        line-height: 35px;
     }
 }

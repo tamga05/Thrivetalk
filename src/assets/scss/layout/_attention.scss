@@ -4,12 +4,27 @@
         // display: grid;
         // grid-template-columns: 1fr 2fr;
         // grid-template-rows: 1fr;
-        height: 800px;
         display: flex;
     }
 
+    &__image {
+        max-width: 480px;
+        width: 100%;
+        object-fit: cover;
+    }
+
     &__content {
-        padding: 103px 167px 230px 106px;
+        padding: 103px 0 42px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 960px;
+        width: 100%;
+    }
+
+    &__inner {
+        max-width: 676px;
+        margin-right: 70px;
     }
 
     &__title {
@@ -19,7 +34,7 @@
         letter-spacing: 6%;
         text-align: left;
         color: #22356F;
-        margin-bottom: 237px;
+        margin-bottom: 225px;
     }
 
     &__text {
@@ -29,7 +44,7 @@
         letter-spacing: -1%;
         text-align: left;
         color: #22356F;
-        margin-bottom: 167px;
+        margin-bottom: 152px;
     }
 
     &__span {
