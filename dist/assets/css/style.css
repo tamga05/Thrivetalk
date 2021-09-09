@@ -903,15 +903,29 @@ template {
 .smile__wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 800px;
 }
 
 .smile__cell-big {
     background-color: #22356F;
-    padding: 107px 248px 58px 173px;
+    padding: 100px 0px 0px;
+    max-width: 960px;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
-.smile__cell {
+.smile__inner {
+    max-width: 580px;
+    margin-right: 20px;
+}
+
+.smile__image {
+    max-width: 480px;
+    width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
 }
@@ -1052,6 +1066,22 @@ template {
     margin-right: 10px;
 }
 
+@media screen and (max-width: 1350px) {
+    .smile__cell-big {
+        padding: 70px 0px 0px;
+    }
+
+    .smile__title {
+        font-size: 45px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .smile__text {
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 1255px) {
     .about__wrapper {
         padding-left: 10px;
@@ -1108,6 +1138,26 @@ template {
 
     .attention__text {
         margin-bottom: 100px;
+    }
+
+    .smile__inner {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .smile__cell-big {
+        padding-top: 60px;
+    }
+
+    .smile__title {
+        font-size: 33px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .smile__text {
+        font-size: 24px;
+        margin-bottom: 40px;
     }
 }
 
@@ -1168,6 +1218,18 @@ template {
         margin-bottom: 50px;
         font-size: 28px;
     }
+
+    .smile__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .smile__cell-big {
+        padding: 20px 0px 20px;
+    }
+
+    .smile__image {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -1188,5 +1250,16 @@ template {
         margin-bottom: 25px;
         font-size: 20px;
         line-height: 35px;
+    }
+
+    .smile__title {
+        font-size: 23px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .smile__text {
+        font-size: 18px;
+        margin-bottom: 20px;
     }
 }

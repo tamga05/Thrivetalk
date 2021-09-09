@@ -3,20 +3,30 @@
     &__wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 800px;
+        //grid-template-rows: 800px;
     }
 
     &__cell-big {
         background-color: #22356F;
-        padding: 107px 248px 58px 173px;
+        padding: 100px 0px 0px;
+        max-width: 960px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    &__cell {
+    &__inner {
+        max-width: 580px;
+        margin-right: 20px;
+    }
+
+    &__image {
         //background-image: url(./../images/smile/smileman.png);
         // background-position: center;
         // background-repeat: no-repeat;
-        // max-width: 480px;
-        // width: 100%;
+        max-width: 480px;
+        width: 100%;
         object-fit: cover;
     }
 
