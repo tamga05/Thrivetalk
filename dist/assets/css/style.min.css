@@ -570,6 +570,7 @@ template {
   grid-template-rows: 360px; }
 
 .training__cell {
+  width: 360px;
   padding-top: 105px;
   position: relative;
   font-family: Larsseit-Bold;
@@ -894,6 +895,11 @@ template {
   vertical-align: middle;
   margin-right: 10px; }
 
+@media screen and (max-width: 1439px) {
+  .training__wrapper {
+    overflow-x: auto;
+    height: 360px; } }
+
 @media screen and (max-width: 1350px) {
   .smile__cell-big {
     padding: 70px 0px 0px; }
@@ -940,14 +946,14 @@ template {
     margin-left: 10px;
     margin-right: 10px; }
   .smile__cell-big {
-    padding-top: 60px; }
+    padding-top: 50px; }
   .smile__title {
     font-size: 33px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 25px; }
   .smile__text {
     font-size: 24px;
-    margin-bottom: 40px; } }
+    margin-bottom: 30px; } }
 
 @media screen and (max-width: 795px) {
   .about__wrapper {
@@ -1001,6 +1007,13 @@ template {
     margin-bottom: 25px;
     font-size: 20px;
     line-height: 35px; }
+  .training__wrapper {
+    height: 300px; }
+  .training__cell {
+    height: 300px;
+    width: 315px; }
+    .training__cell::before {
+      left: 40px; }
   .smile__title {
     font-size: 23px;
     margin-top: 0px;
