@@ -1286,11 +1286,19 @@ template {
 
     .training__cell {
         height: 300px;
-        width: 315px;
+        width: 300px;
     }
 
     .training__cell::before {
-        left: 40px;
+        left: 30px;
+    }
+
+    .training__cell::after {
+        left: 30px;
+    }
+
+    .training__cell--lightgreen::before {
+        left: 55px;
     }
 
     .smile__title {
@@ -1305,7 +1313,7 @@ template {
     }
 
     .method__wrapper {
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr, 360px;
         overflow-x: auto;
         height: 360px;
     }

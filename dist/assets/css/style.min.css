@@ -1023,9 +1023,13 @@ template {
     height: 300px; }
   .training__cell {
     height: 300px;
-    width: 315px; }
+    width: 300px; }
     .training__cell::before {
-      left: 40px; }
+      left: 30px; }
+    .training__cell::after {
+      left: 20px; }
+  .training__cell--lightgreen::before {
+    left: 55px; }
   .smile__title {
     font-size: 23px;
     margin-top: 0px;
@@ -1034,7 +1038,7 @@ template {
     font-size: 18px;
     margin-bottom: 20px; }
   .method__wrapper {
-    grid-template-rows: 1, 360px;
+    grid-template-rows: 1fr, 360px;
     overflow-x: auto;
     height: 360px; } }
 

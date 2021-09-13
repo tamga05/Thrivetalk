@@ -304,13 +304,27 @@
             height: 300px;
         }
 
+
         &__cell {
             height: 300px;
-            width: 315px;
+            width: 300px;
 
             &::before {
-                left: 40px;
+                left: 30px;
             }
+
+            &::after {
+                left: 20px;
+            }
+
+        }
+
+        &__cell--lightgreen {
+
+            &::before {
+                left: 55px;
+            }
+
         }
 
     }
@@ -332,12 +346,12 @@
 
     }
 
-    //Секция Method//@at-root
+    //Секция Method//
 
     .method {
 
         &__wrapper {
-            grid-template-rows: 1, 360px;
+            grid-template-rows: 1fr, 360px;
             overflow-x: auto;
             height: 360px;
         }
