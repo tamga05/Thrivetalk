@@ -167,6 +167,10 @@
         justify-content: center;
     }
 
+    .method__cell::after {
+        width: 270px;
+    }
+
 }
 
 @media screen and (max-width: 795px) {
@@ -329,6 +333,31 @@
 
     }
 
+
+    //Секция Method//
+
+    .method {
+
+        &__cell {
+            padding-top: 100px;
+            padding-left: 165px;
+
+            &::after {
+                display: none;
+            }
+
+            &::before {
+                display: none;
+            }
+
+        }
+
+        &__link {
+            font-size: 24px;
+        }
+
+    }
+
     //Секция Smile//
 
     .smile {
@@ -345,19 +374,5 @@
         }
 
     }
-
-    //Секция Method//
-
-    .method {
-
-        &__wrapper {
-            grid-template-rows: 1fr, 360px;
-            overflow-x: auto;
-            height: 360px;
-        }
-
-    }
-
-
 
 }

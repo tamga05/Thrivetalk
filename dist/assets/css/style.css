@@ -1187,6 +1187,10 @@ template {
         -ms-flex-pack: center;
         justify-content: center;
     }
+
+    .method__cell::after {
+        width: 270px;
+    }
 }
 
 @media screen and (max-width: 795px) {
@@ -1294,11 +1298,28 @@ template {
     }
 
     .training__cell::after {
-        left: 30px;
+        left: 20px;
     }
 
     .training__cell--lightgreen::before {
         left: 55px;
+    }
+
+    .method__cell {
+        padding-top: 100px;
+        padding-left: 165px;
+    }
+
+    .method__cell::after {
+        display: none;
+    }
+
+    .method__cell::before {
+        display: none;
+    }
+
+    .method__link {
+        font-size: 24px;
     }
 
     .smile__title {
@@ -1310,11 +1331,5 @@ template {
     .smile__text {
         font-size: 18px;
         margin-bottom: 20px;
-    }
-
-    .method__wrapper {
-        grid-template-rows: 1fr, 360px;
-        overflow-x: auto;
-        height: 360px;
     }
 }
