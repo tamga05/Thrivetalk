@@ -1101,10 +1101,22 @@ template {
         grid-template-rows: repeat(3, 480px);
         -ms-flex-pack: center;
         justify-content: center;
+        background-color: #E5E5E5;
     }
 
-    .container {
-        background-color: #E5E5E5;
+    .way__cell {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .way__cell:nth-child(1n+1) {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    .way__cell:nth-child(1n+4) {
+        padding-top: 25px;
+        padding-bottom: 15px;
     }
 }
 
@@ -1182,7 +1194,7 @@ template {
 
 @media screen and (max-width: 960px) {
     .method__wrapper {
-        grid-template-columns: repeat(1, 480px);
+        grid-template-columns: minmax(200px, 480px);
         grid-template-rows: repeat(6, 480px);
         -ms-flex-pack: center;
         justify-content: center;
@@ -1238,6 +1250,32 @@ template {
         font-size: 18px;
     }
 
+    .method__cell {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .method__cell::after {
+        display: none;
+    }
+
+    .method__cell::before {
+        display: none;
+    }
+
+    .way__wrapper {
+        grid-template-columns: 280px 280px;
+        grid-template-rows: repeat(3, 1fr);
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .way__heading {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
     .attention__content {
         padding-top: 42px;
     }
@@ -1261,6 +1299,15 @@ template {
 
     .smile__image {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .way__wrapper {
+        grid-template-columns: 280px;
+        grid-template-rows: repeat(6, 1fr);
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 }
 
@@ -1303,11 +1350,6 @@ template {
 
     .training__cell--lightgreen::before {
         left: 55px;
-    }
-
-    .method__cell {
-        padding-top: 100px;
-        padding-left: 165px;
     }
 
     .method__cell::after {

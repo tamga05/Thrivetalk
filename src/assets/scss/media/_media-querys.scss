@@ -13,7 +13,6 @@
 
 }
 
-
 @media screen and (max-width: 1350px) {
 
     //Секция Smile//
@@ -49,16 +48,38 @@
 
     //Секция Method//
 
-    .method__wrapper {
-        grid-template-columns: repeat(2, 480px);
-        grid-template-rows: repeat(3, 480px);
-        justify-content: center;
+    .method {
+
+        &__wrapper {
+            grid-template-columns: repeat(2, 480px);
+            grid-template-rows: repeat(3, 480px);
+            justify-content: center;
+            background-color: #E5E5E5;
+        }
+
     }
 
-    .container {
-        background-color: #E5E5E5;
-    }
+    //Секция Way//
 
+    .way {
+
+        &__cell {
+            padding-right: 40px;
+            padding-left: 40px;
+
+            &:nth-child(1n+1) {
+                padding-top: 25px;
+                padding-bottom: 15px;
+            }
+
+            &:nth-child(1n+4) {
+                padding-top: 25px;
+                padding-bottom: 15px;
+            }
+
+        }
+
+    }
 
 }
 
@@ -101,8 +122,6 @@
         }
 
     }
-
-    //Секция About//
 
     //Секция Attention//
 
@@ -155,20 +174,25 @@
         }
 
     }
+    
 }
 
 @media screen and (max-width: 960px) {
 
     //Секция Method//
 
-    .method__wrapper {
-        grid-template-columns: repeat(1, 480px);
-        grid-template-rows: repeat(6, 480px);
-        justify-content: center;
-    }
+    .method {
 
-    .method__cell::after {
-        width: 270px;
+        &__wrapper {
+            grid-template-columns: minmax(200px, 480px);
+            grid-template-rows: repeat(6, 480px);
+            justify-content: center;
+        }
+
+        &__cell::after {
+            width: 270px;
+        }
+
     }
 
 }
@@ -230,6 +254,45 @@
 
     }
 
+    //Секция Method//
+
+    .method {
+
+        &__cell {
+
+            text-align: center;
+            padding-left: 0px;
+            padding-right: 0px;
+
+            &::after {
+                display: none;
+            }
+
+            &::before {
+                display: none;
+            }
+
+        }
+
+    }
+
+    //Секция Way//
+
+    .way {
+
+        &__wrapper {
+            grid-template-columns: 280px 280px;
+            grid-template-rows: repeat(3, 1fr);
+            justify-content: center;
+        }
+
+        &__heading {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+
+    }
+
     //Секция Attention//
 
     .attention {
@@ -268,6 +331,17 @@
 
     }
 
+}
+
+@media screen and (max-width: 500px) {
+
+    //Секция Way//
+
+    .way__wrapper {
+        grid-template-columns: 280px;
+        grid-template-rows: repeat(6, 1fr);
+        justify-content: center;
+    }
 
 }
 
@@ -339,8 +413,6 @@
     .method {
 
         &__cell {
-            padding-top: 100px;
-            padding-left: 165px;
 
             &::after {
                 display: none;
