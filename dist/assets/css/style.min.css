@@ -1053,9 +1053,11 @@ template {
   .smile__wrapper {
     grid-template-columns: 1fr; }
   .smile__cell-big {
-    padding: 20px 0 20px; }
+    padding: 20px 0 20px;
+    order: 2; }
   .smile__image {
-    max-width: 100%; } }
+    max-width: 100%;
+    order: 1; } }
 
 @media screen and (max-width: 700px) {
   .footer__content {
@@ -1087,7 +1089,7 @@ template {
   .header__list {
     margin-bottom: 35px; }
   .header__title {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 30px;
     margin-bottom: 25px; }
   .header__text {

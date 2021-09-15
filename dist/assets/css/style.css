@@ -394,7 +394,6 @@ template {
 
 .header__container {
     background: linear-gradient(90deg, #f4f9e2 78%, white 50%);
-    height: 840px;
     padding-bottom: 2px;
     position: relative;
 }
@@ -475,7 +474,7 @@ template {
 }
 
 .header__item:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .header__link {
@@ -497,8 +496,7 @@ template {
 }
 
 .header__title {
-    width: 484px;
-    height: 167px;
+    max-width: 484px;
     font-family: Larsseit-Bold;
     font-size: 48px;
     line-height: 53.44px;
@@ -509,8 +507,7 @@ template {
 }
 
 .header__text {
-    width: 469px;
-    height: 161px;
+    max-width: 469px;
     font-family: Larsseit;
     font-size: 24px;
     line-height: 42.19px;
@@ -1156,7 +1153,7 @@ template {
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1135px) {
     .header__wrapper {
         padding-left: 10px;
         padding-right: 10px;
@@ -1171,9 +1168,11 @@ template {
     }
 
     .header__title {
-        margin-bottom: 0;
+        margin-bottom: 50px;
     }
+}
 
+@media screen and (max-width: 1100px) {
     .thrive__wrapper {
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
@@ -1377,6 +1376,54 @@ template {
         -ms-flex-pack: center;
         justify-content: center;
         padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .header__wrapper {
+        padding-bottom: 30px;
+    }
+
+    .header__menu {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .header__menu-link {
+        margin-bottom: 35px;
+    }
+
+    .header__list {
+        margin-bottom: 35px;
+    }
+
+    .header__title {
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .header__text {
+        margin-bottom: 50px;
+    }
+
+    .header__btn-block {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .header__btn-left {
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+
+    .header__btn-right {
+        margin-left: 40px;
     }
 }
 
