@@ -100,6 +100,11 @@
         letter-spacing: -3.5%;
         color: #FFFFFF;
         z-index: 2;
+
+        &:hover {
+            cursor: pointer;
+        }
+
     }
 
     &__title {
@@ -135,6 +140,11 @@
         letter-spacing: 10%;
         color: #FFFFFF;
         margin-right: 38px;
+
+        &:hover {
+            cursor: pointer;
+        }
+
     }
 
     &__btn-right {
@@ -148,6 +158,11 @@
         letter-spacing: 10%;
         color: #FAB63E;
         text-align: left;
+
+        &:hover {
+            cursor: pointer;
+        }
+
     }
 
 }
