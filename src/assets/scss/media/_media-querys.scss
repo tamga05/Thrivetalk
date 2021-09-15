@@ -433,6 +433,10 @@
 
     .header {
 
+        &__container {
+            background: rgb(244, 249, 226);
+        }
+
         &__wrapper {
             padding-bottom: 30px;
         }

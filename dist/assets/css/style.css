@@ -1340,10 +1340,14 @@ template {
 
     .smile__cell-big {
         padding: 20px 0 20px;
+        -ms-flex-order: 2;
+        order: 2;
     }
 
     .smile__image {
         max-width: 100%;
+        -ms-flex-order: 1;
+        order: 1;
     }
 }
 
@@ -1399,7 +1403,7 @@ template {
     }
 
     .header__title {
-        font-size: 35px;
+        font-size: 30px;
         margin-top: 30px;
         margin-bottom: 25px;
     }
