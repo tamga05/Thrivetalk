@@ -2,7 +2,7 @@
 
     &__container {
     background: linear-gradient(90deg, rgb(244, 249, 226) 78%, rgb(255, 255, 255) 50%);
-    height: 840px;
+    //height: 840px;
     padding-bottom: 2px;
     position: relative;
     }
@@ -11,8 +11,7 @@
         max-width: 1080px;
         width: 100%;
         margin: 0 auto;
-        padding-top: 27px;
-        padding-bottom: 75px;
+        padding: 27px 0 75px;
     }
 
     &__image {
@@ -81,7 +80,7 @@
         margin-right: 27px;
 
         &:last-child {
-            margin-right: 0px;
+            margin-right: 0;
         }
     }
 
@@ -104,8 +103,8 @@
     }
 
     &__title {
-        width: 484px;
-        height: 167px;
+        max-width: 484px;
+        //height: 167px;
         font-family: Larsseit-Bold;
         font-size: 48px;
         line-height: 53.44px;
@@ -116,8 +115,8 @@
     }
 
     &__text {
-        width: 469px;
-        height: 161px;
+        max-width: 469px;
+        //height: 161px;
         font-family: Larsseit;
         font-size: 24px;
         line-height: 42.19px;
