@@ -21,7 +21,7 @@
     .smile {
 
         &__cell-big {
-            padding: 70px 0px 0px;
+            padding: 70px 0 0;
         }
 
         &__title {
@@ -32,6 +32,34 @@
 
         &__text {
             font-size: 30px;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    //Секция Footer//
+
+    .footer {
+
+        &__top {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__image {
+            max-width: 100%;
+        }
+
+        &__content {
+            padding-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        &__info {
+            margin-left: 0;
         }
 
     }
@@ -137,7 +165,7 @@
         }
 
         &__inner {
-            margin-right: 0px;
+            margin-right: 0;
         }
 
         &__title {
@@ -260,10 +288,9 @@
     .method {
 
         &__cell {
-
             text-align: center;
-            padding-left: 0px;
-            padding-right: 0px;
+            padding-left: 0;
+            padding-right: 0;
 
             &::after {
                 display: none;
@@ -319,15 +346,51 @@
 
         &__wrapper {
             grid-template-columns: 1fr;
-            //grid-template-rows: 400px;
         }
 
         &__cell-big {
-            padding: 20px 0px 20px;
+            padding: 20px 0 20px;
         }
 
         &__image {
             max-width: 100%;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    //Секция Footer//
+
+    .footer {
+
+        &__content {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        &__info {
+            margin-bottom: 25px;
+        }
+
+        &__contacts {
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 25px;
+        }
+
+        &__title {
+            margin-bottom: 25px;
+        }
+
+        &__bottom {
+            justify-content: center;
+            padding-left: 0;
         }
 
     }
@@ -437,7 +500,7 @@
 
         &__title {
             font-size: 23px;
-            margin-top: 0px;
+            margin-top: 0;
             margin-bottom: -15px;
         }
 

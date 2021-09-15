@@ -5,16 +5,19 @@
     }
 
     &__image {
-        height: 380px;
+        max-width: 570px;
+        width: 100%;
     }
 
     &__content {
-        padding: 101px 161px 0px 73px;
+        max-width: 870px;
+        padding-top: 101px;
         display: flex;
     }
 
     &__info {
         max-width: 173px;
+        margin-left: 68px;
     }
 
     &__title {
@@ -70,7 +73,9 @@
         background-color: #62D0DF;
         padding-top: 35px;
         padding-bottom: 30px;
-        padding-left: 179px;
+        padding-left: 180px;
+        display: flex;
+        align-items: center;
     }
 
     &__copyright {
