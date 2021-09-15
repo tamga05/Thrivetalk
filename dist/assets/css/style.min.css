@@ -432,7 +432,7 @@ template {
   color: #FFFFFF;
   z-index: 2; }
   .header__btn:hover {
-    cursor: pointer; }
+    cursor: wait; }
 
 .header__title {
   max-width: 484px;
@@ -464,7 +464,7 @@ template {
   color: #FFFFFF;
   margin-right: 38px; }
   .header__btn-left:hover {
-    cursor: pointer; }
+    cursor: wait; }
 
 .header__btn-right {
   width: 150px;
@@ -478,7 +478,7 @@ template {
   color: #FAB63E;
   text-align: left; }
   .header__btn-right:hover {
-    cursor: pointer; }
+    cursor: wait; }
 
 .thrive__wrapper {
   display: flex; }

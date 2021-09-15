@@ -495,6 +495,10 @@ template {
     z-index: 2;
 }
 
+.header__btn:hover {
+    cursor: pointer;
+}
+
 .header__title {
     max-width: 484px;
     font-family: Larsseit-Bold;
@@ -528,6 +532,10 @@ template {
     margin-right: 38px;
 }
 
+.header__btn-left:hover {
+    cursor: pointer;
+}
+
 .header__btn-right {
     width: 150px;
     height: 50px;
@@ -539,6 +547,10 @@ template {
     letter-spacing: 10%;
     color: #FAB63E;
     text-align: left;
+}
+
+.header__btn-right:hover {
+    cursor: pointer;
 }
 
 .thrive__wrapper {
