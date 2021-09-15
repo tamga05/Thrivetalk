@@ -1384,6 +1384,10 @@ template {
 }
 
 @media screen and (max-width: 530px) {
+    .header__container {
+        background: #f4f9e2;
+    }
+
     .header__wrapper {
         padding-bottom: 30px;
     }
