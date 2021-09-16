@@ -496,7 +496,7 @@ template {
 }
 
 .header__btn:hover {
-    cursor: pointer;
+    cursor: wait;
 }
 
 .header__title {
@@ -533,7 +533,7 @@ template {
 }
 
 .header__btn-left:hover {
-    cursor: pointer;
+    cursor: wait;
 }
 
 .header__btn-right {
@@ -550,7 +550,7 @@ template {
 }
 
 .header__btn-right:hover {
-    cursor: pointer;
+    cursor: wait;
 }
 
 .thrive__wrapper {
