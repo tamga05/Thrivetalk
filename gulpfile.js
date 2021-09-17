@@ -17,6 +17,7 @@ const imagemin = require('gulp-imagemin'); //для минификации из�
 const del = require('del'); // для удаления файлов и папок.
 const notify = require('gulp-notify'); //предоставляет информацию об ошибке.
 const browserSync = require('browser-sync').create(); // для запуска сервера и перезагрузки страницы при внесении изменений.
+const ghPages = require('gulp-gh-pages');
 
 
 // Пути.
@@ -60,6 +61,11 @@ const jsFiles = [
 
 // TASKS.
 // объявляем функции под сборки (все пути ОТНОСИТЕЛЬНЫЕ).
+
+gulp.task('deploy', function() {
+    return gulp.src('./dist/**/*')
+      .pipe(ghPages());
+  });
 
 // Локальный сервер.
 function serve() {

@@ -6,8 +6,12 @@
 
         &__wrapper {
             overflow-x: auto;
-            height: 300px;
-            grid-template-rows: 300px;
+            overflow-y: hidden;
+            height: 360px;
+        }
+
+        &__cell {
+            height: 100%;
         }
 
     }
@@ -531,7 +535,6 @@
         &__wrapper {
             height: 300px;
         }
-
 
         &__cell {
             height: 300px;
