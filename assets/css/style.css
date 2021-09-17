@@ -668,6 +668,7 @@ template {
 
 .training__cell {
     width: 360px;
+    height: 360px;
     padding-top: 105px;
     position: relative;
     font-family: Larsseit-Bold;
@@ -1085,8 +1086,12 @@ template {
 @media screen and (max-width: 1439px) {
     .training__wrapper {
         overflow-x: auto;
-        height: 300px;
-        grid-template-rows: 300px;
+        overflow-y: hidden;
+        height: 360px;
+    }
+
+    .training__cell {
+        height: 100%;
     }
 }
 
