@@ -1,0 +1,3 @@
+# Thrivetalk
+
+This project talks about how to achieve harmony and prosperity in everything ...
